@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <!--Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--My Stylesheet-->
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <!--This is where the user searches for a city-->
+    <section class="search-section">
+        <h1 class="header">The Weather Application</h1>
+        <p>A Five Day Forecast For Any City</p>
+        <input class="form-control w-25 p-3 m-2" type="text" placeholder="Search a City (Boston, Miami, etc...)">
+        <button type="button" class="btn m-3">Search</button>
+        <div class="storage"></div>
+    </section>
+    <section class="today">
+    </section>
+    <section class="forecast"></section>
+    <!--5 Day Forecast Results-->
+    <section class="results-section bg-dark d-none">
+        <!--Day 1 Forecast Results-->
+        <div class="day-container">
+            <p class="date text-center p-2">date</p>
+            <p class="icon text-center">icon placeholder</p>
+            <p class="temperature text-center">60 &#730;</p>
+            <p class="humidity text-center">60% Humidity</p>
+            <p class="wind-speed text-center">10mph</p>
+            <p class="uv-index text-center">UV</p>
+        </div>
+        <!--Day 2 Forecast Results-->
+        <div class="day-container">
+            <p class="date text-center p-2">date</p>
+            <p class="icon text-center">icon placeholder</p>
+            <p class="temperature text-center">60 &#730;</p>
+            <p class="humidity text-center">60% Humidity</p>
+            <p class="wind-speed text-center">10mph</p>
+            <p class="uv-index text-center">UV</p>
+        </div>
+        <!--Day 3 Forecast Results-->
+        <div class="day-container">
+            <p class="date text-center p-2">date</p>
+            <p class="icon text-center">icon placeholder</p>
+            <p class="temperature text-center">60 &#730;</p>
+            <p class="humidity text-center">60% Humidity</p>
+            <p class="wind-speed text-center">10mph</p>
+            <p class="uv-index text-center">UV</p>
+        </div>
+        <!--Day 4 Forecast Results-->
+        <div class="day-container">
+            <p class="date text-center p-2">date</p>
+            <p class="icon text-center">icon placeholder</p>
+            <p class="temperature text-center">60 &#730;</p>
+            <p class="humidity text-center">60% Humidity</p>
+            <p class="wind-speed text-center">10mph</p>
+            <p class="uv-index text-center">UV</p>
+        </div>
+        <!--Day 5 Forecast Results-->
+        <div class="day-container">
+            <p class="date text-center p-2">date</p>
+            <p class="icon text-center">icon placeholder</p>
+            <p class="temperature text-center">60 &#730;</p>
+            <p class="humidity text-center">60% Humidity</p>
+            <p class="wind-speed text-center">10mph</p>
+            <p class="uv-index text-center">UV</p>
+        </div>
+    </section> 
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <!--Custom JS-->
+    <script src="app.js"></script>
+</body>
+</html>

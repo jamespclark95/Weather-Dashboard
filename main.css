@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+}
+
+.search-section {
+    min-height: 40vh;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.search-section button {
+    background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+    transition: .2s all ease;
+}
+
+.search-section button:hover {
+    background-color: #48dbfb;
+    background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
+
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+input {
+    font-size: 1em;
+}
+
+.results-section {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
+.day-container {
+    width: 15em;
+    height: 20em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+
+.card {
+    margin-top: 1em;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    color: white;
+    border: none;
+    -webkit-box-shadow: 1px 2px 18px -3px rgba(0,0,0,0.83); 
+    box-shadow: 1px 2px 18px -3px rgba(0,0,0,0.83);
+}
+
+.card-body {
+    color: #083746;
+}
+
+.today h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.storage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
